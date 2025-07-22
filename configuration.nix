@@ -106,13 +106,10 @@
   environment.systemPackages = with pkgs; [
     wget
     git
+    bat
+    btop
     neofetch
     fastfetch
-    clang
-    gnumake42
-    gdb    
-    valgrind
-    raylib
     zellij
     helix
     brave
@@ -120,6 +117,7 @@
     blockbench
     aseprite
     blender
+    steam
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
