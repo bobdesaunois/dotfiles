@@ -20,19 +20,19 @@ pkgs.mkShell {
     gdb
     valgrind
     raylib
+    lldb
 
     # Gamedev
     blockbench
     blender
     
     # dotnet
-    dotnet
     dotnet-sdk_8
     dotnetCorePackages.runtime_8_0
-    monodevelop
     mono
     nuget
-    
+    omnisharp-roslyn
+       
   ];
 
   shellHook = ''
