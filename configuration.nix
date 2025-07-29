@@ -106,12 +106,20 @@
   environment.systemPackages = with pkgs; [
     wget
     git
+
+    clang
+    clang-tools
+    valgrind
+    lldap
+    gnumake
+    
     bat
     btop
     neofetch
     fastfetch
     zellij
     helix
+    raylib
     brave
     discord
     blockbench
