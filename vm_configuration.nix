@@ -103,23 +103,23 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
+  
   environment.systemPackages = with pkgs; [
     wget
     git
-
-    clang
-    clang-tools
-    valgrind
-    lldap
-    gnumake
-    
     bat
     btop
     neofetch
     fastfetch
     zellij
     helix
-    raylib
+
+    clang
+    clang-tools
+    valgrind
+    lldb_20
+    gnumake
+        
     brave
     discord
     blockbench
@@ -127,7 +127,7 @@
     blender
     steam
   ];
-
+  
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
